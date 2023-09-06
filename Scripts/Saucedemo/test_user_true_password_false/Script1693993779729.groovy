@@ -23,5 +23,17 @@ WebUI.navigateToUrl(GlobalVariable.url_saucedemo)
 
 WebUI.verifyTextPresent('Swag Labs', false)
 
-WebUI.closeBrowser()
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Saucedemo/Page_Swag Labs/input_Swag Labs_user-name'), GlobalVariable.user_true)
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Saucedemo/Page_Swag Labs/input_Swag Labs_password'), GlobalVariable.password_false)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Saucedemo/Page_Swag Labs/button login'))
+
+WebUI.verifyTextPresent('Epic sadface: Username and password do not match any user in this service', false)
 
