@@ -9,4 +9,24 @@
       <initValue>'https://www.saucedemo.com/'</initValue>
       <name>url_saucedemo</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'standard_user'</initValue>
+      <name>user_true</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'secret_sauce'</initValue>
+      <name>password_true</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'standart_eror'</initValue>
+      <name>user_false</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'secret_saucee'</initValue>
+      <name>password_false</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
